@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A5E92B7199A751E00244B4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A5E92B6199A751E00244B4D /* Foundation.framework */; };
+		0A5E92B9199A751E00244B4D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A5E92B8199A751E00244B4D /* CoreGraphics.framework */; };
+		0A5E92BB199A751E00244B4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A5E92BA199A751E00244B4D /* UIKit.framework */; };
+		0A5E92C1199A751E00244B4D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A5E92BF199A751E00244B4D /* InfoPlist.strings */; };
+		0A5E92C3199A751E00244B4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5E92C2199A751E00244B4D /* main.m */; };
+		0A5E92C7199A751E00244B4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5E92C6199A751E00244B4D /* AppDelegate.m */; };
+		0A5E92C9199A751E00244B4D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A5E92C8199A751E00244B4D /* Images.xcassets */; };
+		0A5E92D0199A751E00244B4D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A5E92CF199A751E00244B4D /* XCTest.framework */; };
+		0A5E92D1199A751E00244B4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A5E92B6199A751E00244B4D /* Foundation.framework */; };
+		0A5E92D2199A751E00244B4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A5E92BA199A751E00244B4D /* UIKit.framework */; };
+		0A5E92DA199A751E00244B4D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A5E92D8199A751E00244B4D /* InfoPlist.strings */; };
+		0A5E92DC199A751E00244B4D /* instacollageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5E92DB199A751E00244B4D /* instacollageTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A5E92D3199A751E00244B4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A5E92AB199A751D00244B4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A5E92B2199A751E00244B4D;
+			remoteInfo = instacollage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A5E92B3199A751E00244B4D /* instacollage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = instacollage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A5E92B6199A751E00244B4D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0A5E92B8199A751E00244B4D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0A5E92BA199A751E00244B4D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0A5E92BE199A751E00244B4D /* instacollage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "instacollage-Info.plist"; sourceTree = "<group>"; };
+		0A5E92C0199A751E00244B4D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A5E92C2199A751E00244B4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A5E92C4199A751E00244B4D /* instacollage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "instacollage-Prefix.pch"; sourceTree = "<group>"; };
+		0A5E92C5199A751E00244B4D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0A5E92C6199A751E00244B4D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A5E92C8199A751E00244B4D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0A5E92CE199A751E00244B4D /* instacollageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = instacollageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A5E92CF199A751E00244B4D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0A5E92D7199A751E00244B4D /* instacollageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "instacollageTests-Info.plist"; sourceTree = "<group>"; };
+		0A5E92D9199A751E00244B4D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A5E92DB199A751E00244B4D /* instacollageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = instacollageTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A5E92B0199A751E00244B4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A5E92B9199A751E00244B4D /* CoreGraphics.framework in Frameworks */,
+				0A5E92BB199A751E00244B4D /* UIKit.framework in Frameworks */,
+				0A5E92B7199A751E00244B4D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A5E92CB199A751E00244B4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A5E92D0199A751E00244B4D /* XCTest.framework in Frameworks */,
+				0A5E92D2199A751E00244B4D /* UIKit.framework in Frameworks */,
+				0A5E92D1199A751E00244B4D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A5E92AA199A751D00244B4D = {
+			isa = PBXGroup;
+			children = (
+				0A5E92BC199A751E00244B4D /* instacollage */,
+				0A5E92D5199A751E00244B4D /* instacollageTests */,
+				0A5E92B5199A751E00244B4D /* Frameworks */,
+				0A5E92B4199A751E00244B4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A5E92B4199A751E00244B4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A5E92B3199A751E00244B4D /* instacollage.app */,
+				0A5E92CE199A751E00244B4D /* instacollageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A5E92B5199A751E00244B4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A5E92B6199A751E00244B4D /* Foundation.framework */,
+				0A5E92B8199A751E00244B4D /* CoreGraphics.framework */,
+				0A5E92BA199A751E00244B4D /* UIKit.framework */,
+				0A5E92CF199A751E00244B4D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A5E92BC199A751E00244B4D /* instacollage */ = {
+			isa = PBXGroup;
+			children = (
+				0A5E92C5199A751E00244B4D /* AppDelegate.h */,
+				0A5E92C6199A751E00244B4D /* AppDelegate.m */,
+				0A5E92C8199A751E00244B4D /* Images.xcassets */,
+				0A5E92BD199A751E00244B4D /* Supporting Files */,
+			);
+			path = instacollage;
+			sourceTree = "<group>";
+		};
+		0A5E92BD199A751E00244B4D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A5E92BE199A751E00244B4D /* instacollage-Info.plist */,
+				0A5E92BF199A751E00244B4D /* InfoPlist.strings */,
+				0A5E92C2199A751E00244B4D /* main.m */,
+				0A5E92C4199A751E00244B4D /* instacollage-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A5E92D5199A751E00244B4D /* instacollageTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A5E92DB199A751E00244B4D /* instacollageTests.m */,
+				0A5E92D6199A751E00244B4D /* Supporting Files */,
+			);
+			path = instacollageTests;
+			sourceTree = "<group>";
+		};
+		0A5E92D6199A751E00244B4D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A5E92D7199A751E00244B4D /* instacollageTests-Info.plist */,
+				0A5E92D8199A751E00244B4D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A5E92B2199A751E00244B4D /* instacollage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A5E92DF199A751E00244B4D /* Build configuration list for PBXNativeTarget "instacollage" */;
+			buildPhases = (
+				0A5E92AF199A751E00244B4D /* Sources */,
+				0A5E92B0199A751E00244B4D /* Frameworks */,
+				0A5E92B1199A751E00244B4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = instacollage;
+			productName = instacollage;
+			productReference = 0A5E92B3199A751E00244B4D /* instacollage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A5E92CD199A751E00244B4D /* instacollageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A5E92E2199A751E00244B4D /* Build configuration list for PBXNativeTarget "instacollageTests" */;
+			buildPhases = (
+				0A5E92CA199A751E00244B4D /* Sources */,
+				0A5E92CB199A751E00244B4D /* Frameworks */,
+				0A5E92CC199A751E00244B4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A5E92D4199A751E00244B4D /* PBXTargetDependency */,
+			);
+			name = instacollageTests;
+			productName = instacollageTests;
+			productReference = 0A5E92CE199A751E00244B4D /* instacollageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A5E92AB199A751D00244B4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Dmitry Stankul";
+				TargetAttributes = {
+					0A5E92CD199A751E00244B4D = {
+						TestTargetID = 0A5E92B2199A751E00244B4D;
+					};
+				};
+			};
+			buildConfigurationList = 0A5E92AE199A751D00244B4D /* Build configuration list for PBXProject "instacollage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0A5E92AA199A751D00244B4D;
+			productRefGroup = 0A5E92B4199A751E00244B4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A5E92B2199A751E00244B4D /* instacollage */,
+				0A5E92CD199A751E00244B4D /* instacollageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A5E92B1199A751E00244B4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A5E92C1199A751E00244B4D /* InfoPlist.strings in Resources */,
+				0A5E92C9199A751E00244B4D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A5E92CC199A751E00244B4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A5E92DA199A751E00244B4D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A5E92AF199A751E00244B4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A5E92C7199A751E00244B4D /* AppDelegate.m in Sources */,
+				0A5E92C3199A751E00244B4D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A5E92CA199A751E00244B4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A5E92DC199A751E00244B4D /* instacollageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A5E92D4199A751E00244B4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A5E92B2199A751E00244B4D /* instacollage */;
+			targetProxy = 0A5E92D3199A751E00244B4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A5E92BF199A751E00244B4D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A5E92C0199A751E00244B4D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0A5E92D8199A751E00244B4D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A5E92D9199A751E00244B4D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A5E92DD199A751E00244B4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0A5E92DE199A751E00244B4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A5E92E0199A751E00244B4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "instacollage/instacollage-Prefix.pch";
+				INFOPLIST_FILE = "instacollage/instacollage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0A5E92E1199A751E00244B4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "instacollage/instacollage-Prefix.pch";
+				INFOPLIST_FILE = "instacollage/instacollage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0A5E92E3199A751E00244B4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/instacollage.app/instacollage";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "instacollage/instacollage-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "instacollageTests/instacollageTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0A5E92E4199A751E00244B4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/instacollage.app/instacollage";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "instacollage/instacollage-Prefix.pch";
+				INFOPLIST_FILE = "instacollageTests/instacollageTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A5E92AE199A751D00244B4D /* Build configuration list for PBXProject "instacollage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A5E92DD199A751E00244B4D /* Debug */,
+				0A5E92DE199A751E00244B4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A5E92DF199A751E00244B4D /* Build configuration list for PBXNativeTarget "instacollage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A5E92E0199A751E00244B4D /* Debug */,
+				0A5E92E1199A751E00244B4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0A5E92E2199A751E00244B4D /* Build configuration list for PBXNativeTarget "instacollageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A5E92E3199A751E00244B4D /* Debug */,
+				0A5E92E4199A751E00244B4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A5E92AB199A751D00244B4D /* Project object */;
+}
