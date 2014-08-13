@@ -19,6 +19,10 @@
 		0A5E92D2199A751E00244B4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A5E92BA199A751E00244B4D /* UIKit.framework */; };
 		0A5E92DA199A751E00244B4D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A5E92D8199A751E00244B4D /* InfoPlist.strings */; };
 		0A5E92DC199A751E00244B4D /* instacollageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5E92DB199A751E00244B4D /* instacollageTests.m */; };
+		0ABC485B199A7CF700858F65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ABC485A199A7CF700858F65 /* Main.storyboard */; };
+		0ABC4867199C214200858F65 /* InitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC4866199C214200858F65 /* InitialViewController.m */; };
+		0ABC486A199C258500858F65 /* SelectPhotosControler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC4869199C258500858F65 /* SelectPhotosControler.m */; };
+		0ABC486D199C2D1300858F65 /* CollageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC486C199C2D1300858F65 /* CollageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,13 @@
 		0A5E92D7199A751E00244B4D /* instacollageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "instacollageTests-Info.plist"; sourceTree = "<group>"; };
 		0A5E92D9199A751E00244B4D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0A5E92DB199A751E00244B4D /* instacollageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = instacollageTests.m; sourceTree = "<group>"; };
+		0ABC485A199A7CF700858F65 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0ABC4865199C214200858F65 /* InitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialViewController.h; sourceTree = "<group>"; };
+		0ABC4866199C214200858F65 /* InitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialViewController.m; sourceTree = "<group>"; };
+		0ABC4868199C258400858F65 /* SelectPhotosControler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectPhotosControler.h; sourceTree = "<group>"; };
+		0ABC4869199C258500858F65 /* SelectPhotosControler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectPhotosControler.m; sourceTree = "<group>"; };
+		0ABC486B199C2D1300858F65 /* CollageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollageViewController.h; sourceTree = "<group>"; };
+		0ABC486C199C2D1300858F65 /* CollageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +120,13 @@
 			children = (
 				0A5E92C5199A751E00244B4D /* AppDelegate.h */,
 				0A5E92C6199A751E00244B4D /* AppDelegate.m */,
+				0ABC485A199A7CF700858F65 /* Main.storyboard */,
+				0ABC4865199C214200858F65 /* InitialViewController.h */,
+				0ABC4866199C214200858F65 /* InitialViewController.m */,
+				0ABC4868199C258400858F65 /* SelectPhotosControler.h */,
+				0ABC4869199C258500858F65 /* SelectPhotosControler.m */,
+				0ABC486B199C2D1300858F65 /* CollageViewController.h */,
+				0ABC486C199C2D1300858F65 /* CollageViewController.m */,
 				0A5E92C8199A751E00244B4D /* Images.xcassets */,
 				0A5E92BD199A751E00244B4D /* Supporting Files */,
 			);
@@ -221,6 +239,7 @@
 			files = (
 				0A5E92C1199A751E00244B4D /* InfoPlist.strings in Resources */,
 				0A5E92C9199A751E00244B4D /* Images.xcassets in Resources */,
+				0ABC485B199A7CF700858F65 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +258,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ABC4867199C214200858F65 /* InitialViewController.m in Sources */,
 				0A5E92C7199A751E00244B4D /* AppDelegate.m in Sources */,
 				0A5E92C3199A751E00244B4D /* main.m in Sources */,
+				0ABC486D199C2D1300858F65 /* CollageViewController.m in Sources */,
+				0ABC486A199C258500858F65 /* SelectPhotosControler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +382,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "instacollage/instacollage-Prefix.pch";
 				INFOPLIST_FILE = "instacollage/instacollage-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -373,6 +396,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "instacollage/instacollage-Prefix.pch";
 				INFOPLIST_FILE = "instacollage/instacollage-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -437,6 +461,7 @@
 				0A5E92E1199A751E00244B4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A5E92E2199A751E00244B4D /* Build configuration list for PBXNativeTarget "instacollageTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +470,7 @@
 				0A5E92E4199A751E00244B4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
