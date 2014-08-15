@@ -14,5 +14,6 @@
 
 - (void) loadPhotos:(NSString *)username success: (void (^)(void))callback;
 - (void) makeCollage;
+- (void) displayErrorMessage:(NSString*)message;
 
 @end
