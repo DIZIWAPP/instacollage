@@ -9,6 +9,8 @@
 #import "InitialViewController.h"
 
 @interface InitialViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *textField;
+- (IBAction)makeButtonPressed:(id)sender;
 
 @end
 
@@ -46,4 +48,18 @@
 }
 */
 
+- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    
+}
+
+- (IBAction)makeButtonPressed:(id)sender {
+    if (self.textField.text.length > 0) {
+        self.photoWorker = [[PhotoWorker alloc] init];
+        NSString *username = self.textField.text;
+        [self.photoWorker loadPhotos: username success: ^{
+            [self performSegueWithIdentifier:@"showPicker" sender:sender];
+        }];
+    }
+}
 @end

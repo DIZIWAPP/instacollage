@@ -14,3 +14,6 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif
+
+#define BASE_URL @"https://api.instagram.com/v1/"
+#define CLIENT_ID @"36b9eed5b90542d298178a8305898450"

@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PhotoWorker.h"
 
 @interface InitialViewController : UIViewController
+
+@property (nonatomic, strong) PhotoWorker *photoWorker;
 
 @end

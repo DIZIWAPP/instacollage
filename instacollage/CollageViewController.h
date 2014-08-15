@@ -10,4 +10,6 @@
 
 @interface CollageViewController : UIViewController
 
+- (IBAction)unwindToInitialView:(UIStoryboardSegue *)segue;
+
 @end

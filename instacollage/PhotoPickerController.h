@@ -1,5 +1,5 @@
 //
-//  SelectPhotosControler.h
+//  PhotoPickerController.h
 //  instacollage
 //
 //  Created by Dmitry Stankul on 14/08/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SelectPhotosControler : UICollectionViewController
+@interface PhotoPickerController : UICollectionViewController
 
 @end

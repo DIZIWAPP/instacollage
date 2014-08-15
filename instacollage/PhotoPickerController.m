@@ -1,18 +1,18 @@
 //
-//  SelectPhotosControler.m
+//  PhotoPickerController.m
 //  instacollage
 //
 //  Created by Dmitry Stankul on 14/08/14.
 //  Copyright (c) 2014 Dmitry Stankul. All rights reserved.
 //
 
-#import "SelectPhotosControler.h"
+#import "PhotoPickerController.h"
 
-@interface SelectPhotosControler ()
+@interface PhotoPickerController ()
 
 @end
 
-@implementation SelectPhotosControler
+@implementation PhotoPickerController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
