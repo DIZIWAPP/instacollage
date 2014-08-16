@@ -17,9 +17,11 @@
 - (void) loadPhotos:(NSString *)username success: (void (^)(void))callback {
     [[UserManager sharedManager] findUser:username success:^(User *user) {
         [[PhotoManager sharedManager] findPhotos:user.userId success:^(NSArray *photos) {
-            if (photos.count > 0) {
+            NSPredicate *filter = [NSPredicate predicateWithFormat: @"type = 'image'"];
+            NSArray *temp = [[NSArray alloc] initWithArray:[photos filteredArrayUsingPredicate: filter]];
+            if (temp.count > 0) {
 //                NSLog(@"first_photo.url is: %@", ((Photo *)photos[0]).hiResURL);
-                self.photos = photos;
+                self.photos = temp;
                 callback();
             }
             else [self displayErrorMessage:@"No photos found."];
